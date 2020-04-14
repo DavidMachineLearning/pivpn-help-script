@@ -1,0 +1,21 @@
+## List of commands
+
+#### Make sure you have the necessary packages installed by running
+sudo pip3 install -r Requirements.txt
+
+#### To be able to change the config file you need to run this command first
+sudo chown -R pi: /etc/openvpn/easy-rsa/pki
+
+#### Run script at startup by editing rc.local
+sudo nano /etc/rc.local
+
+#### Add the following line before the line "exit 0", replace the path to the full path where the script is located
+sudo python3 /home/pi/pivpn_settings.py &
+
+#### Save the file by typing the following keys in order
+ctrl+x
+y
+enter
+
+#### Now reboot the system
+sudo reboot
