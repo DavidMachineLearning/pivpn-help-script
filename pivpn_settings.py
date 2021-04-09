@@ -12,10 +12,9 @@ https://github.com/davidmachinelearning
 Before running this script please make sure you followed the instructions in the instructions.txt file!
 """
 
-__author__ = "David Forino"
+__author__ = "David Forino AI Solutions"
 __license__ = "MIT"
 __version__ = "0.0.1"
-__email__ = "davidforino.aisolutions@gmail.com"
 
 from requests import get
 from time import sleep
